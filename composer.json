@@ -1,5 +1,5 @@
 {
-    "name": "zohocrm/php-sdk",
+    "name": "onlineidentity/zoho-php-sdk",
     "description": "Zoho CRM API SDK for PHP",
     "type": "SDK",
     "homepage": "https://github.com/zoho/zcrm-php-sdk",
@@ -9,13 +9,19 @@
             "email":"support@zohocrm.com",
             "homepage": "https://www.zoho.com/crm/help/customer-support.html",
             "role": "Developer"
+        },
+        {
+            "name": "Niels",
+            "email":"niels@onlineidentity.nl",
+            "homepage": "https://www.onlineidentity.nl",
+            "role": "Developer"
         }
     ],
     "require": {
-        "php": ">=5.6"
+        "php": ">=7.*"
     },
     "require-dev": {
-        "phpunit/phpunit": ">=5.7"
+        "phpunit/phpunit": ">=7.*"
     },
     "autoload": {
         "psr-4": {
