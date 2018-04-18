@@ -142,7 +142,7 @@ class ZohoHTTPConnector
 	}
 	public function getRequestParamsMap()
 	{
-		return $this->requestParams;
+		return isset($this->requestParams) ? $this->requestParams : [];
 	}
 	
 	public function setRequestBody($reqBody)
